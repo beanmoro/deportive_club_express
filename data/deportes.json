@@ -1,0 +1,14 @@
+[
+    {
+        "nombre": "Futbol",
+        "precio": "123"
+    },
+    {
+        "nombre": "Basketball",
+        "precio": "321"
+    },
+    {
+        "nombre": "Equisde",
+        "precio": "1111"
+    }
+]
