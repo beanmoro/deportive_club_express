@@ -4,7 +4,7 @@ import { engine } from "express-handlebars";
 import { readFile, writeFile } from "fs/promises";
 
 const app = express();
-const PORT = 5001;
+const PORT = process.env.PORT || 5001;
 const __dirname = import.meta.dirname;
 
 app.engine(".hbs", engine({ extname: ".hbs" }));
